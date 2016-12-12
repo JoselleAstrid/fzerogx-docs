@@ -4,6 +4,7 @@ The route descriptions focus on the checkpoint manipulation aspect of flying. Ot
 
 Has map and description:
 
+- [Casino Palace: Double Branches - First turn](cpdb_first-turn.md)
 - [Aeropolis: Screw Drive - Wide crossing](asd.md)
 
 Has map, but no description:

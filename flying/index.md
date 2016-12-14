@@ -1,4 +1,11 @@
-# Flying routes and maps
+# Flying
+
+## Basics
+
+- [Checkpoints](/checkpoints/index.md)
+- Lap skips (to be written)
+
+## Course routes and maps
 
 The route descriptions focus on the checkpoint manipulation aspect of flying. Other specifics, such as how to lift off the track, may not be covered.
 

@@ -10,7 +10,7 @@ Videos:
 - Fly backwards out wide, staying in front of checkpoint 3.
 - Cross the finish line backwards.
 - Fly to the right of the 388-402 intersection point.
-  - In particular, crossing to the right of 397 updates your checkpoint to the end of the lap. This step is necessary because you can't cross more than 9 checkpoints (in this case 3, 2, 1, 0, 402, ..., 398) out of order.
+  - In particular, crossing to the right of 397 updates your checkpoint to the end of the lap. This step is necessary because you can't cross more than [9 checkpoints](/checkpoints/index.md#checkpoint-advancement-rules) out of order. Our 9 checkpoints here are 3, 2, 1, 0, 402, 401, 400, 399, 398.
 - Cross the finish line forwards (while above the finish line) to complete the lap.
 - Land on the track (in front of the finish line). Lift off again and repeat the flying route.
 

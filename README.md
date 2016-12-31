@@ -2,6 +2,7 @@
 
 Various information about F-Zero GX for the Nintendo GameCube, especially information gathered by inspecting the game's memory and files.
 
+- [Addresses](addresses/index.md)
 - [Checkpoints](checkpoints/index.md)
 - [Flying](flying/index.md)
 

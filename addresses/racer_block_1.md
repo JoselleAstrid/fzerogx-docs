@@ -203,7 +203,7 @@ Frame count since start or restore (B) | 0x481 | 1 | Integer
 Skull count | 0x482 | 1 | Integer
 Air time frame count | 0x483 | 1 | Integer
 - | 0x484 | 4 | -
-Unknown, pointers? | 0x488 | 24 | Pointer x6
+Unknown, pointers? | 0x488 | 24 | Address x6
 Position, behind and above | 0x4A0 | 12 | Float 3D vector
 Energy lost on previous hit | 0x4AC | 4 | Float
 Strafe effect | 0x4B0 | 2 | Signed integer

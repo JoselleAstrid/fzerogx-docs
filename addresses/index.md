@@ -16,4 +16,5 @@
 
 - [Base machine stat blocks](base_machine_stat_blocks.md)
 - [Racer block 1](racer_block_1.md)
-- [Racer block 2](racer_block_2.md) (TODO)
+- [Racer block 2](racer_block_2.md)
+- [Replay inputs](replay_inputs.md)

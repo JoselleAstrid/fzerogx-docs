@@ -36,7 +36,7 @@ Side attack button (1 if pressed, 0 otherwise) | 0x0, 1st bit | 1 bit | Binary
 Boost button | 0x0, 2nd bit | 1 bit | Binary
 Spin attack button | 0x0, 3rd bit | 1 bit | Binary
 1 when both strafe inputs are non-zero | 0x0, 4th bit | 1 bit | Binary
-- | 0x0, 5th bit | 4 bits | -
+| - | 0x0, 5th bit | 4 bits | -
 Steer X, range -100 to 100 | 0x1 | 1 | Signed integer
 Steer Y, range -100 to 100 | 0x2 | 1 | Signed integer
 Right strafe minus left strafe, range -100 to 100 | 0x3 | 1 | Signed integer

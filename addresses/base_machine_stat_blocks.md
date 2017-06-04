@@ -70,7 +70,7 @@ Drag | 0x40 | 4 | Float
 Body | 0x44 | 4 | Float
 Unknown, possibly grip related stat | 0x48 | 1 | Integer
 Unknown stat + Drift camera | 0x49 | 1 | Binary
-- | 0x4A | 2 | -
+| - | 0x4A | 2 | -
 Camera reorienting | 0x4C | 4 | Float
 Camera repositioning | 0x50 | 4 | Float
 Tilt, front right, width | 0x54 | 4 | Float

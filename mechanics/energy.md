@@ -1,12 +1,13 @@
 # Energy
 
-## Note on Energy versus Body
+## Notes on Energy versus Body
 
-- Energy and Body are two different things. A machine's body determines how much energy they lose on collisions, land mines, etc. All machines (except certain ones in Story) start with the same energy, but different machines have different body ratings (e.g. Fat Shark has very strong body, Twin Noritta has very weak body).
-- Body doesn't determine how much energy is lost from a boost. Having more energy both lets you take more hits, and lets you boost more.
+- A machine's **Body** determines how much energy they lose on collisions, land mines, etc. But it doesn't determine how much energy is lost from a boost.
+- Having more **Energy** both lets you take more hits, and lets you boost more.
+- All machines (except certain ones in Story) start with the same energy, 100.
+- Different machines have different body stats. Energy loss from collisions, mines, etc. is calculated as some base damage number times the body stat. So a lower body stat means less damage. Fat Shark's body is 0.35, while Twin Noritta's is 1.3. See more body stats in this [machine stats spreadsheet](https://docs.google.com/spreadsheets/d/133Xsq-KV3lpfk9SS4_L84WV-JuXHOR8_GlFZRnskkSU/edit#gid=10).
 
 ## Energy amounts
-
 
 | | Energy | Notes
 --- | --- | ---

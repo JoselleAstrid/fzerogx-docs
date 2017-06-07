@@ -2,10 +2,19 @@
 
 Various information about F-Zero GX for the Nintendo GameCube, especially information gathered by inspecting the game's memory and files.
 
-- [Addresses](addresses/index.md)
-- [Checkpoints](checkpoints/index.md)
-- [Flying](flying/index.md)
+## Checkpoints and spaceflying
 
-This repository is not just the product of some isolated memory-watch research. It's a synthesis of that type of research and the vast amount of knowledge developed by high-level GX players over the years, especially players at [F-Zero Central](http://fzerocentral.org/).
+- [Checkpoints](checkpoints/index.md)
+- [Flying routes](flying/index.md)
+
+## Various game mechanics
+
+- [Energy](mechanics/energy.md)
+
+## Research help
+
+- [Memory addresses](addresses/index.md)
+
+Memory-watch tools are powerful, but the best research comes from combining that with a base of knowledge built by high-level players over the years. Thanks to the F-Zero GX players from [F-Zero Central](http://fzerocentral.org/) and elsewhere for building up that knowledge.
 
 This repository and its author(s) are not affiliated with Nintendo or the game's creators.

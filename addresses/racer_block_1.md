@@ -24,8 +24,8 @@ Block order in races with multiple machines:
 
 ## Block items
 
-Item | Offset | Bytes | Format
---- | --- | --- | ---
+Item | Offset | Bytes | Format | Notes
+--- | --- | --- | --- | ---
 General state | 0x0 | 4 | Binary
 Race entrant ID | 0x4 | 2 | Integer
 Machine ID | 0x6 | 2 | Integer
@@ -79,7 +79,7 @@ Position, center, vertically oscillating, Y | 0x168 | 4 | Float
 Position, center, vertically oscillating, Z | 0x178 | 4 | Float
 Speed in km/h | 0x17C | 4 | Float
 Aerial tilt | 0x180 | 4 | Float
-Energy | 0x184 | 4 | Float
+Energy | 0x184 | 4 | Float | See the [page on Energy](/mechanics/energy.md)
 | - | 0x188 | 2 | -
 Boost frame countdown, for energy boosts and dash plates | 0x18A | 1 | Integer
 Boost frame countdown, for energy boosts only | 0x18B | 1 | Integer

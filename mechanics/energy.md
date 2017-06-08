@@ -53,4 +53,4 @@ Chapter 5 capsule, Very Hard | +20 |
 
 ## Memory location
 
-Offset 0x184 in [Racer block 1](/addresses/racer_block_1.md).
+[Racer block 1](/addresses/racer_block_1.md), offset 0x184.

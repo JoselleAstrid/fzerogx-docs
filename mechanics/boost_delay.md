@@ -1,6 +1,8 @@
 # Boost delay
 
-When you use boost power or hit a dash plate, you enter boost state. When boost state ends, you typically have a delay of several frames until you can use boost power again.
+When you use boost power or hit a dash plate, you enter boost state. After boost power, boost state lasts as long as your machine's [boost duration stat](https://docs.google.com/spreadsheets/d/133Xsq-KV3lpfk9SS4_L84WV-JuXHOR8_GlFZRnskkSU/edit#gid=17). After a dash plate, boost state lasts for half the boost duration stat. For example, Fat Shark is in boost state for 2 seconds after boost power, and for 1 second after a dash plate.
+
+However, when boost state ends, you typically have a delay of several frames until you can use boost power again.
 
 The number of boost delay frames depends on your speed when your boost state ends:
 
@@ -29,6 +31,10 @@ Boost delay is the biggest reason why MT boosting is useful, especially at highe
 Generally when you're doing consecutive boosts, you gain or maintain speed in boost state, and you drop speed rapidly when not in boost state.
 
 Boost delay forces some frames of non-boost state, so you want to MT (release the accelerator) during those boost delay frames to minimize speed loss, then press accelerator + boost together once the boost delay is over. Using MT between consecutive boosts is known as MT boosting.
+
+The table above shows that the timing of consecutive boosts changes as you gain speed, so you must adjust your boost and MT timing accordingly.
+
+Boost delay and MT boosting apply to dash plates as well. However, dash plates give a small boost effect even after boost state ends, so MT may not help after dash plates at lower speeds. The phenomenon is known as residual effect on [this spreadsheet](https://docs.google.com/spreadsheets/d/1fWJuCwwAKniUjdT64H8s0akdmBRo9r5XlLrkuWOIY4I/edit#gid=0).
 
 ## CPUs
 

@@ -216,7 +216,7 @@ Last other machine approached | 0x4C1 | 1 | Integer
 Restore count | 0x4C2 | 1 | Integer
 | - | 0x4C3 | 1 | -
 Frame countdown after collision with another machine | 0x4C4 | 2 | Integer
-Boost delay frame timer | 0x4C6 | 2 | Integer
+Boost delay frame timer | 0x4C6 | 2 | Integer | See the [page on Boost delay](/mechanics/boost_delay.md)
 (Dupe) Position, center, 1 frame behind | 0x4C8 | 12 | Float 3D vector
 Turn reaction input | 0x4D4 | 4 | Float
 Turn reaction effect | 0x4D8 | 4 | Float

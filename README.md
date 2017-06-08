@@ -9,6 +9,7 @@ Various information about F-Zero GX for the Nintendo GameCube, especially inform
 
 ## Various game mechanics
 
+- [Boost delay](mechanics/boost_delay.md) (why you should MT boost)
 - [Energy](mechanics/energy.md)
 
 ## Research help

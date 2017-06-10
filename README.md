@@ -10,7 +10,7 @@ Various information about F-Zero GX for the Nintendo GameCube, especially inform
 ## Various game mechanics
 
 - [Boost delay](mechanics/boost_delay.md) - Why you should MT boost
-- [CPU racers](mechanics/cpus.md) - Machine stat modifications, rubberbanding, and more
+- [CPU racers](mechanics/cpus.md) - Rubberbanding, Story mode machine stat modifications, and more
 - [Energy](mechanics/energy.md)
 
 ## Research help

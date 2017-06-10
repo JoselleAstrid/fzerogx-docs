@@ -110,15 +110,15 @@ Minions:
 - Energy: Normal 80, Hard 100, Very Hard 120
 - The minions start by staying in formation with Michael Chain. They gradually break from the formation to go into attack mode when Michael Chain reaches certain distances. Here are the distances:
   - Machines 28-30: Immediately
-  - 24-27: At about 3600m
-  - 20-23: At about 5800m
-  - 16-19: At about 7900m
-  - 14-15: At about 10100m
-  - 10-13: At about 12200m
-  - 8-9: At about 15700m
-  - 6-7: At about 19300m (shortly after the pit area)
-  - 3-5: At about 20200m
-  - This list of distances probably has a 400m margin of error, but it should give a general idea.
+  - 24-27: At about 3470m
+  - 20-23: At about 5610m
+  - 16-19: At about 7750m
+  - 14-15: At about 9930m
+  - 10-13: At about 12060m
+  - 8-9: At about 15660m
+  - 6-7: At about 18960m (shortly after the pit area)
+  - 3-5: At about 20050m
+  - This list of distances probably has a 50m margin of error, but it should give a general idea.
 - Formation minions
   - Constantly adjusting accelerator input to remain in formation with Michael Chain
   - Use 1.3 accelerator input and boosting as needed to try and keep up when Chain boosts

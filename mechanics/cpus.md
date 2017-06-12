@@ -36,7 +36,9 @@ The biggest difference between difficulties is how much the CPU uses boosts and 
 
 ## Vs. Battle
 
-Accelerator input: Like Standard, but doesn't go above 0.9 (only tested with one human player passing the CPU). The handicap setting does not affect this.
+Accelerator input: Like Standard, but doesn't go above 0.9 (only tested with one human player passing the CPU).
+
+CPUs don't experience [handicap stat boosts](versus_handicap.md). Even so, human players experience handicap stat boosts when a CPU is in first place.
 
 
 ## Story mode

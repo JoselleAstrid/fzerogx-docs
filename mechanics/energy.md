@@ -51,6 +51,13 @@ Chapter 5 capsule, Very Hard | +20 |
 - To determine how many energy chunks are visible, the game rounds your energy to the nearest multiple of 0.78125 for 4:3, or multiple of 1.041777... for 16:9. So for 4:3, your energy looks completely empty when less than 0.390625. For 16:9, it looks completely empty when less than 0.5208333....
 
 
+# Oddities
+
+- Go to Practice mode so that you're allowed to boost on Lap 1. Don't press anything during the 3-2-1 countdown at the start of the race. After the race starts, press Accelerator and Boost on the same frame. You'll lose 0.1666... energy, but you won't boost.
+
+
 ## Memory location
 
 [Racer block 1](/addresses/racer_block_1.md), offset 0x184.
+
+In Cheat Engine, if you look at the instructions that write to the energy address, it should show different instructions for different ways of gaining/losing energy: hitting a wall, boosting, being in a pit area, and so on. Inspecting these instructions could give more insight on how the gains and losses are calculated.

@@ -21,6 +21,7 @@ Various information about F-Zero GX for the Nintendo GameCube, especially inform
 
 ## Miscellaneous
 
+- [Course distances](miscellaneous/course_distances.md)
 - [Custom machine color swaps in Machine Settings](miscellaneous/custom_color_swaps.md)
 
 Memory-watch tools are powerful, but the best research comes from combining that with a base of knowledge built by high-level players over the years. Thanks to the F-Zero GX players from [F-Zero Central](http://fzerocentral.org/) and elsewhere for building up that knowledge.

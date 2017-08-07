@@ -18,8 +18,8 @@ Block order in races with multiple machines: TODO
 
 In general, this block isn't documented as well as [Racer block 1](racer_block_1.md).
 
-Item | Offset | Bytes | Format
---- | --- | --- | ---
+Item | Offset | Bytes | Format | Notes
+--- | --- | --- | --- | ---
 Pointer to 0xE0 | 0x0 | 4 | Address
 | - | 0x4 | - | -
 Checkpoint number | 0x74 | 4 | Integer
@@ -114,7 +114,7 @@ Checkpoint, air only | 0x638 | 4 | Integer
 Checkpoint fraction | 0x648 | 4 | Float
 | - | 0x64C | - | -
 Track distance covered over all laps | 0x658 | 4 | Float
-Track distance of one lap | 0x65C | 4 | Float
+Track distance of one lap | 0x65C | 4 | Float | See [Course distances page](/miscellaneous/course_distances.md)
 Track-distance position in this lap | 0x660 | 4 | Float
 Orientation (yaw) relative to track | 0x664 | 2 | Integer
 | - | 0x666 | - | -

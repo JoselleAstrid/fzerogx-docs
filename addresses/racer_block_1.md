@@ -83,7 +83,7 @@ Energy | 0x184 | 4 | Float | See the [page on Energy](/mechanics/energy.md)
 | - | 0x188 | 2 | -
 Boost frame countdown, for energy boosts and dash plates | 0x18A | 1 | Integer
 Boost frame countdown, for energy boosts only | 0x18B | 1 | Integer
-Unknown, boost effect related? | 0x18C | 4 | Float
+Camera effect from boosts | 0x18C | 4 | Float | Credit: superSANIC
 | - | 0x190 | 4 | -
 Frame counter from machine crash to restore | 0x194 | 4 | Integer
 Unknown, stability and out-of-bounds plane related | 0x198 | 36 | Float x9?

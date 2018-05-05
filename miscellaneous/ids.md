@@ -48,6 +48,89 @@ ID | Hex ID | Machine
 40 | 28 | Rainbow Phoenix
 
 
+## Custom machine parts
+
+Use [KAZOON's page](http://cycloawaodorin.sakura.ne.jp/FZGX/customize.html) to go between custom machine names and part combinations.
+
+ID | Hex ID | Type | Part
+--- | --- | --- | ---
+0 | 00 | Body | Brave Eagle
+1 | 01 | Body | Galaxy Falcon
+2 | 02 | Body | Giant Planet
+3 | 03 | Body | Megalo Cruiser
+4 | 04 | Body | Splash Whale
+5 | 05 | Body | Wild Chariot
+6 | 06 | Body | Valiant Jaguar
+7 | 07 | Body | Holy Spider
+8 | 08 | Body | Blood Raven
+9 | 09 | Body | Funny Swallow
+10 | 0A | Body | Optical Wing
+11 | 0B | Body | Mad Bull
+12 | 0C | Body | Big Tyrant
+13 | 0D | Body | Grand Base
+14 | 0E | Body | Fire Wolf
+15 | 0F | Body | Dread Hammer
+16 | 10 | Body | Silver Sword
+17 | 11 | Body | Rage Knight
+18 | 12 | Body | Rapid Barrel
+19 | 13 | Body | Sky Horse
+20 | 14 | Body | Aqua Goose
+21 | 15 | Body | Space Cancer
+22 | 16 | Body | Metal Shell
+23 | 17 | Body | Speedy Dragon
+24 | 18 | Body | Liberty Manta
+25 | 19 | Cockpit | Wonder Worm
+26 | 1A | Cockpit | Rush Cyclone
+27 | 1B | Cockpit | Combat Cannon
+28 | 1C | Cockpit | Muscle Gorilla
+29 | 1D | Cockpit | Cyber Fox
+30 | 1E | Cockpit | Heat Snake
+31 | 1F | Cockpit | Rave Drifter
+32 | 20 | Cockpit | Aerial Bullet
+33 | 21 | Cockpit | Spark Bird
+34 | 22 | Cockpit | Blast Camel
+35 | 23 | Cockpit | Dark Chaser
+36 | 24 | Cockpit | Garnet Phantom
+37 | 25 | Cockpit | Bright Spear
+38 | 26 | Cockpit | Hyper Stream
+39 | 27 | Cockpit | Super Lynx
+40 | 28 | Cockpit | Crystal Egg
+41 | 29 | Cockpit | Windy Shark
+42 | 2A | Cockpit | Red Rex
+43 | 2B | Cockpit | Sonic Soldier
+44 | 2C | Cockpit | Maximum Star
+45 | 2D | Cockpit | Moon Snail
+46 | 2E | Cockpit | Crazy Buffalo
+47 | 2F | Cockpit | Scud Viper
+48 | 30 | Cockpit | Round Disk
+49 | 31 | Cockpit | Energy Crest
+50 | 32 | Booster | Euros -01
+51 | 33 | Booster | Triangle -GT
+52 | 34 | Booster | Velocity -J
+53 | 35 | Booster | Sunrise 140
+54 | 36 | Booster | Saturn -SG
+55 | 37 | Booster | Bluster -X
+56 | 38 | Booster | Devilfish -RX
+57 | 39 | Booster | Mars -EX
+58 | 3A | Booster | Titan -G4
+59 | 3B | Booster | Extreme -ZZ
+60 | 3C | Booster | Thunderbolt -V2
+61 | 3D | Booster | Boxer -2C
+62 | 3E | Booster | Shuttle -M2
+63 | 3F | Booster | Punisher -4X
+64 | 40 | Booster | Scorpion -R
+65 | 41 | Booster | Raiden -88
+66 | 42 | Booster | Impulse 220
+67 | 43 | Booster | Bazooka -YS
+68 | 44 | Booster | Meteor -RR
+69 | 45 | Booster | Tiger -RZ
+70 | 46 | Booster | Hornet -FX
+71 | 47 | Booster | Jupiter -Q
+72 | 48 | Booster | Comet -V
+73 | 49 | Booster | Crown -77
+74 | 4A | Booster | Triple -Z
+
+
 ## Courses
 
 This course order can be seen when using the All Cup code.

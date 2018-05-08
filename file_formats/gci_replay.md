@@ -126,11 +126,15 @@ There are three ways that the screen can fade to white during a replay:
 - The player presses Start and chooses to exit the replay.
 - One of the Replay Checkpoints is reached, and the actual position doesn't match the checkpoint position exactly. This is probably meant as a failsafe to exit the replay early in case of a desync.
 
+Note that if the machine breaks down (reaches zero energy), the replay can still continue.
+
 Here's how a Replay Checkpoint works: it saves the machine's position at a specific frame. When the replay is played back, and this specific frame is reached, it checks if the machine's position matches the saved position. If it doesn't match, the replay fades to white. If it does match, the replay continues. Each replay has 4 Replay Checkpoints.
 
 This array has 4 elements, and for some reason each element actually saves 4 positions, but only the first position is checked. Thus, there are 4*1 = 4 checkpoint positions which are actually checked.
 
 The first checkpoint is always at frame 182: at "Go!", when the race timer starts, but just before the machine moves out of the starting gate. Note that the checkpoint position corresponds to the center of the machine. So, even before getting out of the starting gate, the Y position (vertical) will vary depending on the machine's size.
+
+For those interested in seeing desynced replays, the easiest way to disable a replay checkpoint is to make Frame number 2 smaller than Frame number 1. If this is done for all checkpoints, the replay should always play until 'Total frames' is reached.
 
 Contents of each element:
 
@@ -161,6 +165,8 @@ Position 4, Z | 32 | Float
 ## Replay Input Array
 
 This array has one element for every time input changes, including stick and L/R pressure changes. A typical race may have roughly 1 element per 1.5 frames. The maximum possible is 1 element per frame.
+
+If the replay reaches the end of this input array, and 'Total frames' has not been reached yet, then the replay will keep applying the final input to the machine until Total frames is reached.
 
 Contents of each element:
 

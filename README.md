@@ -15,6 +15,12 @@ Various information about F-Zero GX for the Nintendo GameCube, especially inform
 - [Machine stats (in Google Sheets)](https://docs.google.com/spreadsheets/d/133Xsq-KV3lpfk9SS4_L84WV-JuXHOR8_GlFZRnskkSU/edit)
 - [Vs. Battle handicap](mechanics/versus_handicap.md)
 
+## File formats
+
+- [GCI (Gamecube memory card files)](file_formats/gci.md)
+  - [Emblems](file_formats/gci_emblem.md)
+  - [Replays](file_formats/gci_replay.md)
+
 ## Research help
 
 - [Memory addresses](addresses/index.md)
@@ -25,6 +31,6 @@ Various information about F-Zero GX for the Nintendo GameCube, especially inform
 - [Custom machine color swaps in Machine Settings](miscellaneous/custom_color_swaps.md)
 - [Internal ID numbers of machines and courses](miscellaneous/ids.md)
 
-Memory-watch tools are powerful, but the best research comes from combining that with a base of knowledge built by high-level players over the years. Thanks to the F-Zero GX players from [F-Zero Central](http://fzerocentral.org/) and elsewhere for building up that knowledge.
+Memory watch and debugger tools are powerful, but the best research comes from combining that with a base of knowledge built by high-level players over the years. Thanks to the F-Zero GX players from [F-Zero Central](http://fzerocentral.org/) and elsewhere for building up that knowledge.
 
 This repository and its author(s) are not affiliated with Nintendo or the game's creators.

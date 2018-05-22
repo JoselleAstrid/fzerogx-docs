@@ -8,7 +8,9 @@ In F-Zero GX, each GCI file follows the same format for the first 0x20A0 bytes. 
 - Garage
 - Ghost
 - [Replay](gci_replay.md)
-- Save file
+- [Save file](gci_savefile.md)
+
+Some of these formats have editor tools available. When an editor tool is not available, refer to: [Manually editing a GCI file](gci_manual_edit.md)
 
 
 ## GCI header: First 0x40 bytes

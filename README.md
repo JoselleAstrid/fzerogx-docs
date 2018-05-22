@@ -20,6 +20,8 @@ Various information about F-Zero GX for the Nintendo GameCube, especially inform
 - [GCI (Gamecube memory card files)](file_formats/gci.md)
   - [Emblems](file_formats/gci_emblem.md)
   - [Replays](file_formats/gci_replay.md)
+  - [Save files](file_formats/gci_savefile.md)
+  - [Manually editing a GCI](file_formats/gci_manual_edit.md)
 
 ## Research help
 

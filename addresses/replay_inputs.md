@@ -15,14 +15,11 @@ In a replay, the array is already filled with inputs as the replay starts. The o
 
 Memory locations:
 
-- Pointer = \[[Reference pointer](index.md#base-addresses-and-pointers) + 0x239058\]
-
+- Pointer = \[[Reference pointer](index.md#base-addresses-and-pointers) + offset\]
+- Offset: 0x239058 NA version, 0x2342D8 JP version
   - Pointer is 0 if not in a race in Time Attack, Grand Prix, or Replay.
-  
 - Current array index (2 byte integer) = Start address + Pointer - 0x80000000 + 0xA0
-  
 - Last array index (2 byte integer) = Start address + Pointer - 0x80000000 + 0xA2
-  
 - Array start = Start address + Pointer - 0x80000000 + 0xA4
 
 To find the array without going through the pointers, have at least one part of the race with Accel input only, and scan for the array of hex bytes `04 00 00 00 64`. Or, you can try checking the address 0x300F0DEA4 in Time Attack mode and Dolphin 5.0.

@@ -7,7 +7,7 @@
 ### Primary location
 
 There's one memory block for each non-custom machine and custom part. The blocks are of size 0xB4 and come one after the other.
- 
+
 First block's address = Start address + 0x1554000
 
 Block order:
@@ -15,9 +15,10 @@ Block order:
 - Machine numbers 01 (Red Gazelle) to 30 (Black Bull)
 - Dark Schneider
 - Machine numbers 31 (Fat Shark) to 40 (Rainbow Phoenix)
-- All 25 body parts in Garage order, Brave Eagle to Liberty Manta
-- All 25 cockpit parts in Garage order, Wonder Worm to Energy Crest
-- All 25 booster parts in Garage order, Euros -01 to Triple -Z
+- (A gap of 0x230 bytes, containing machine names and some numbers)
+- All 25 custom body parts in Garage order, Brave Eagle to Liberty Manta (see order [here](/miscellaneous/ids.md))
+- All 25 custom cockpit parts in Garage order, Wonder Worm to Energy Crest
+- All 25 custom booster parts in Garage order, Euros -01 to Triple -Z
 
 When you change these base stat values, the corresponding derived stat values in [Racer block 1](racer_block_1.md) also change.
 
@@ -25,8 +26,10 @@ Reference points: Custom parts start at Start address + 0x1555F04. After the cus
 
 
 ### Secondary location for non-custom machines
- 
-First block's address = [Reference pointer](index.md#base-addresses-and-pointers) + 0x195584
+
+First block's address = [Reference pointer](index.md#base-addresses-and-pointers) + offset
+
+- Offset: 0x195660 NA version, 0x192140 JP version
 
 Block order: Same as the primary location.
 
@@ -37,7 +40,9 @@ Reference point: Machine names as strings are located just before this.
 
 ### Secondary location for custom parts
 
-First block's address = [Reference pointer](index.md#base-addresses-and-pointers) + 0x1B3A54
+First block's address = [Reference pointer](index.md#base-addresses-and-pointers) + offset
+
+- Offset: 0x1B3B30 NA version, 0x1AEF60 JP version
 
 Block order: Same as the primary location, except that there are 24 bytes of other stuff between the body and cockpit blocks, and 16 bytes of other stuff between the cockpit and booster blocks.
 

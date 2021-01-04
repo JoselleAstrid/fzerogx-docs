@@ -16,7 +16,7 @@ In a replay, the array is already filled with inputs as the replay starts. The o
 Memory locations:
 
 - Pointer = \[[Reference pointer](index.md#base-addresses-and-pointers) + offset\]
-- Offset: 0x239058 NA version, 0x2342D8 JP version
+  - Offset: 0x239058 NA version, 0x2342D8 JP version
   - Pointer is 0 if not in a race in Time Attack, Grand Prix, or Replay.
 - Current array index (2 byte integer) = Start address + Pointer - 0x80000000 + 0xA0
 - Last array index (2 byte integer) = Start address + Pointer - 0x80000000 + 0xA2

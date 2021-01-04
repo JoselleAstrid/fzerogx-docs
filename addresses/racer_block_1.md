@@ -8,7 +8,7 @@ There's one memory block for each race participant. The blocks are of size 0x620
 Calculation for the first block's address:
 
 - Pointer = \[[Reference pointer](index.md#base-addresses-and-pointers) + offset\]
-- Offset: 0x227878 NA version, 0x222B18 JP version
+  - Offset: 0x227878 NA version, 0x222B18 JP version
   - Pointer is 0 if a race is not active.
   
   - Pointer becomes available during the black screen before the camera pans around the track.
